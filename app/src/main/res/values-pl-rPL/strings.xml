@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+⁹<?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="app_name">Ukryj Moją Listę Aplikacji</string>
   <string name="title_home">Strona główna</string>
@@ -114,6 +114,8 @@
   <string name="about_how_to_use_description_1">Możesz tworzyć szablony w &#x201E;Zarządzaniu szablonami&#x201D;.\nNastępnie zastosuj szablony do aplikacji w &#x201E;Zarządzaniu aplikacjami&#x201D;. (Możesz również wybrać dodatkowe aplikacje dla celów).\nPowinieneś i tylko powinieneś zaznaczyć &#x201E;System Framework&#x201D; w zakresie modułu Xposed/białej liście.</string>
   <string name="about_how_to_use_description_2">Zmiany konfiguracji obowiązują w czasie rzeczywistym.</string>
   <string name="about_open_source">Licencje otwarto źródłowe</string>
+<string name="module_description">Blokuj wykrywanie listy aplikacji.</string>
+
   <!-- Kolory -->
   <string name="color_sakura">Jasnoróżowy</string>
   <string name="color_red">Czerwony</string>
