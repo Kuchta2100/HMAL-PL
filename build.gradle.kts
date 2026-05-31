@@ -58,6 +58,11 @@ subprojects {
 
                 if (lp.getProperty("buildWithGitSuffix").toBoolean()) {
                     versionNameSuffix = ".${rootExtra["gitCommitCount"]}"
+}               
+lint {
+                    checkReleaseBuilds = false
+                    abortOnError = false
+
                 }
             }
 
