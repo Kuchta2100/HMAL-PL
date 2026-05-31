@@ -114,6 +114,8 @@
     <string name="about_how_to_use_description_1">You can create templates in \"Template manage\".\nThen apply the templates to apps in \"App manage\". (You can also select extra apps for targets.)\nYou should and ONLY should check \"System Framework\" in Xposed module scope / whitelist.</string>
     <string name="about_how_to_use_description_2">Config modification effective in real time.</string>
     <string name="about_open_source">Open source licenses</string>
+<string name="module_description">Reject applist detection.</string>
+
     <!-- Colors -->
     <string name="color_sakura">Sakura</string>
     <string name="color_red">Red</string>
