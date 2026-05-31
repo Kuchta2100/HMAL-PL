@@ -54,8 +54,8 @@ jobs:
       if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/PL' || github.event_name == 'workflow_dispatch')
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "app/build/outputs/apk/release/CorePatch-PL.apk,app/build/outputs/apk/debug/CorePatch-PL-debug.apk"
+        artifacts: "app/build/outputs/apk/release/HMAL.apk,app/build/outputs/apk/debug/HMAL-debug.apk"
         tag: "v4.2.2.219-219"
-        name: "HMAL 4.2.2.219 (219)"
+        name: "HMAL-4.2.2.219-(219)"
         allowUpdates: "true"
         token: "${{ secrets.GITHUB_TOKEN }}"
